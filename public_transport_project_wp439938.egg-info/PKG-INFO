@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: public-transport-project-wp439938
+Version: 0.0.1
+Summary: Project for the course 'Programming in Python' at the University of Warsaw.
+Home-page: 
+Author: Weronika Piecuch
+Author-email: wp439938@students.mimuw.edu.pl
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Analysis of the operation of city buses in Warsaw
+### *Author:* Weronika Piecuch, University of Warsaw
+
+## Collecting data
+To collect data use `collect_data.py` with options from: --download-bus-stops, --download-timetables, --collect-online-locations
+
+## Analysis
+To analyze data use `run_analysis.py` with name of dir (in format `YYYY-MM-DD_HH-MM-SS`, eg. `2024-02-15_08-03-56`) with collected online locations (dir should be in location `data/online_locations/`) with options from: --punctuality, --speed.
