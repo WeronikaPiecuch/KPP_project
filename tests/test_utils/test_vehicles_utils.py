@@ -1,5 +1,4 @@
 import pytest
-import pandas as pd
 from unittest.mock import patch
 from project.utils.vehicles_utils import *
 from project.utils.coordinates_utils import init_points_dict
